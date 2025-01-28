@@ -12,7 +12,7 @@ from CurriculumWeb.Views.Footer.Footer import footer
     title = "Portfolio"
 )
 def portfolio() -> rx.Component:
-    # Welcome Page (Index)
+    # Welcome Page (Index) holla
     
     return rx.vstack(
         barra_de_navegacion(),
