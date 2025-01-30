@@ -2,6 +2,7 @@ import reflex as rx
 
 from CurriculumWeb.Views.Headre.header import header
 from CurriculumWeb.Views.Navbar.Navbar import barra_de_navegacion
+from CurriculumWeb.Views.indexBody.body import body
 from rxconfig import config
 from CurriculumWeb.routes import Ruta
 from CurriculumWeb.Views.IndexButtons.Buttons import buttons
@@ -17,6 +18,7 @@ def index() -> rx.Component:
         barra_de_navegacion(),
         header(),
         buttons(),
+        body(),
         footer(),
         align='center',
         spacing='3'

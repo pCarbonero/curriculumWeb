@@ -11,14 +11,5 @@ def header() -> rx.Component:
                 border="5px solid #555",
             ),
             rx.text('Pablo Carbonero Almellones', font_size="40px", font_weight="bold", margin_top="20px", margin_bottom="20px")
-        ),
-        rx.center(
-            rx.hstack(
-                rx.text('Soy técnico profesional en Animación 3D, Videojuegos y Entornos Interactivos, y actualmente estudio Desarrollo de Aplicaciones Multiplataforma.' +
-                        ' Durante mi primera formación descubrí mi pasión por la programación y decicdí orientar mi carrera a este sector.'+
-                        ' En mi actual formación estoy aprendiendo tecnologías como .NET (MAUI, ASP.NET), C#, Python, Java, Kotlin (Android Studio, Jetpack Compose) y SQL Server.',
-                        align="left"),
-            width="600px",
-        )
         )
     )
